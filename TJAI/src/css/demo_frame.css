@@ -1,0 +1,140 @@
+/*
+
+    This css file is for the layout of products demostration.
+    (2 column layout)
+
+*/
+.global-content{
+    height: 1948px;
+}
+
+.products-demo-content{
+    width:100%;
+    height: 1948px;
+    column-count: 2;
+    position: absolute;
+    top: 5px;
+}
+
+.products-demo-content-left{
+    position: absolute;
+    top: 0;
+    width:30%;
+    height: 2048px;
+    float:left;
+    background-color: #f1f2f6;
+}
+
+.products-demo-left-ul{
+    list-style-type: none;
+    position: fixed;
+    margin-top: 20pt;
+    left: 100px;
+    width: 150px;
+    overflow: hidden;
+    text-align: left;
+    padding: 20px;
+}
+
+.products-demo-left-list-choice{
+    margin-top: 5px;
+}
+
+
+.products-demo-left-list-title{
+    color: #c23616;
+}
+
+.products-demo-content-right{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width:70%;
+    height: 2048px;
+    float: right;
+    background-color: #f1f2f6;
+}
+
+.products-demo-content-things{
+    position: absolute;
+    margin-top: 20pt;
+    width: 860px;
+    text-align: left;
+}
+
+.products-demo-content-things-title{
+    position: absolute;
+    width: 860px;
+    text-align: center;
+}
+
+.products-demo-content-things-pic{
+    position: absolute;
+    top: 220px;
+    width: 860px;
+    text-align: center;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+.nao1{
+    width:100%;
+}
+
+.products-demo-content-things-text{
+    position: absolute;
+    top: 60px;
+    width: 860px;
+    text-align: left;
+}
+
+.text1{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.mytest{
+    column-count: 2;
+    width: 440px;
+}
+
+.text2,.text3{
+    position: absolute;
+    top: 100px;
+    float: left;
+}
+
+.text2:before{
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    margin-top: -10px;
+    bottom: auto;
+    right: auto;
+    height: 7px;
+    width: 50%;
+    background-color: #8796a9;
+}
+
+.text3{
+    float: right;
+    left: 200px;
+}
+
+.text3:before{
+    content: '';
+    position: absolute;
+    left: 20px;
+    top: 0;
+    margin-top: -10px;
+    bottom: auto;
+    right: auto;
+    height: 7px;
+    width: 80px;
+    background-color: #8796a9;
+}
+
+.global-footer{
+    top: 2048px;
+}
